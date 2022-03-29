@@ -1,4 +1,4 @@
 output "stacks" {
-  value       = module.spacelift.stacks
+  value       = module.example.stacks
   description = "Spacelift stacks"
 }

@@ -1,10 +1,12 @@
+stack_config_path = "./stacks"
+
 stack_config_path_template = "stacks/%s.yaml"
 
-branch = "master"
+branch = "main"
 
-repository = "spacelift-poc"
+repository = "spacelift-demo"
 
-terraform_version = "1.1.7"
+terraform_version = "1.0.7"
 
 terraform_version_map = {
   "0.12"  = "0.12.30"
@@ -12,7 +14,6 @@ terraform_version_map = {
   "0.14"  = "0.14.11"
   "0.15"  = "0.15.4"
   "1.0.7" = "1.0.7"
-  "1.1.7" = "1.1.7"
 }
 
 external_execution = true
