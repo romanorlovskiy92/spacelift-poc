@@ -7,7 +7,8 @@ locals {
 }
 
 module "example" {
-  source = "../.."
+  source  = "cloudposse/cloud-infrastructure-automation/spacelift"
+  version = "v0.42.0"
 
   stacks             = local.stacks
   branch             = var.branch
