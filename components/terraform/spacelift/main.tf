@@ -2,7 +2,7 @@ provider "spacelift" {}
 
 module "spacelift" {
   source  = "cloudposse/cloud-infrastructure-automation/spacelift"
-  version = "v0.47.0"
+  # version = "v0.47.0"
 
   branch             = var.branch
   repository         = var.repository
