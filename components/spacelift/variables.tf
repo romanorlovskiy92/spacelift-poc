@@ -54,7 +54,7 @@ variable "component_deps_processing_enabled" {
 variable "stack_config_path_template" {
   type        = string
   description = "Stack config path template"
-  default     = "../../stacks/%s.yaml"
+  default     = "stacks/%s.yaml"
 }
 
 variable "worker_pool_id" {

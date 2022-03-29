@@ -1,4 +1,4 @@
-stack_config_path_template = "../../stacks/%s.yaml"
+stack_config_path_template = "stacks/%s.yaml"
 
 branch = "master"
 
