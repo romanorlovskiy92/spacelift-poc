@@ -19,6 +19,7 @@ module "spacelift" {
   stack_deps_processing_enabled     = var.stack_deps_processing_enabled
   component_deps_processing_enabled = var.component_deps_processing_enabled
   stack_config_path_template        = var.stack_config_path_template
+  components_path                   = var.components_path
 
   worker_pool_id          = var.worker_pool_id
   worker_pool_name_id_map = var.worker_pool_name_id_map

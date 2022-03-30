@@ -1,5 +1,7 @@
 stack_config_path_template = "stacks/%s.yaml"
 
+components_path = "components/terraform"
+
 branch = "master"
 
 repository = "spacelift-poc"
