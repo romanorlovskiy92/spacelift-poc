@@ -1,7 +1,7 @@
 provider "spacelift" {}
 
 module "spacelift" {
-  source  = "cloudposse/cloud-infrastructure-automation/spacelift"
+  source  = "git@github.com:romanorlovskiy92/terraform-spacelift-cloud-infrastructure-automation.git"
   # version = "v0.47.0"
 
   branch             = var.branch
