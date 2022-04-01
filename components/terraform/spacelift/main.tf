@@ -6,7 +6,7 @@ module "spacelift" {
 
   branch             = var.branch
   repository         = var.repository
-  manage_state       = true
+  manage_state       = false
   external_execution = true
 
   # Global defaults for all Spacelift stacks created by this project
