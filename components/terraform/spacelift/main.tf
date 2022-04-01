@@ -1,7 +1,7 @@
 provider "spacelift" {}
 
 module "spacelift" {
-  source  = "github.com/romanorlovskiy92/terraform-spacelift-cloud-infrastructure-automation"
+  source  = "github.com/romanorlovskiy92/terraform-spacelift-cloud-infrastructure-automation?ref=backend-mount"
   # version = "v0.47.0"
 
   branch             = var.branch
