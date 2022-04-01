@@ -18,3 +18,6 @@ terraform_version_map = {
 }
 
 external_execution = true
+
+# IAM role region
+region = "us-east-2"
