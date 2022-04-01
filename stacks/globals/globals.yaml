@@ -8,9 +8,9 @@ terraform:
   backend:
     s3:
       encrypt: true
-      bucket: "eg-ue2-root-tfstate"
+      bucket: "root-ue2-tfstate"
       key: "terraform.tfstate"
-      dynamodb_table: "eg-ue2-root-tfstate-lock"
+      # dynamodb_table: "root-ue2-tfstate-lock"
       acl: "bucket-owner-full-control"
       region: "us-east-2"
     remote:
@@ -20,10 +20,10 @@ terraform:
   remote_state_backend:
     s3:
       encrypt: true
-      bucket: "eg-ue2-root-tfstate"
+      bucket: "root-ue2-tfstate"
       key: "terraform.tfstate"
-      dynamodb_table: "eg-ue2-root-tfstate-lock"
-      profile: "eg-gbl-root-terraform"
+      # dynamodb_table: "root-ue2-tfstate-lock"
+      # profile: "eg-gbl-root-terraform"
       acl: "bucket-owner-full-control"
       region: "us-east-2"
 

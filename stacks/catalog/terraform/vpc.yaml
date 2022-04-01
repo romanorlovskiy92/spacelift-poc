@@ -10,6 +10,8 @@ components:
       settings:
         spacelift:
           workspace_enabled: true
+          aws_role_enabled: true
+          worker_type: shared
       vars:
         enabled: true
         name: "common"
