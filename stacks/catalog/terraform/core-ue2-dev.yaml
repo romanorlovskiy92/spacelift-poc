@@ -1,0 +1,5 @@
+components:
+  terraform:
+    "eks/blue-override":
+      vars:
+        service_1_name: "service-1-override-2"

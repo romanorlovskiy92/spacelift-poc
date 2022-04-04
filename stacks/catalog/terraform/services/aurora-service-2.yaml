@@ -1,0 +1,5 @@
+components:
+  terraform:
+    aurora:
+      vars:
+        service_2_name: "aurora-service-2"
