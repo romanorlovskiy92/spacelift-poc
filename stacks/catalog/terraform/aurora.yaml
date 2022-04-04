@@ -4,17 +4,17 @@
 # https://github.com/bmatcuk/doublestar
 # File extensions are optional (if not specified, `.yaml` is used by default)
 import:
-  - catalog/terraform/services/service-?.*
+  - catalog/terraform/services/aurora-service-?.*
 
 components:
   terraform:
-    "test/test-component":
+    aurora:
       backend:
         s3:
-          workspace_key_prefix: test-test-component
+          workspace_key_prefix: aurora
       remote_state_backend:
         s3:
-          workspace_key_prefix: test-test-component
+          workspace_key_prefix: aurora
       settings:
         spacelift:
           workspace_enabled: true
