@@ -1,0 +1,5 @@
+components:
+  terraform:
+    "eks/blue":
+      vars:
+        service_2_name: "service-2"

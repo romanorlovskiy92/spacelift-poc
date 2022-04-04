@@ -1,0 +1,24 @@
+# `import` supports POSIX-style Globs for file names/paths (double-star `**` is supported)
+# https://en.wikipedia.org/wiki/Glob_(programming)
+# https://pkg.go.dev/gopkg.in/godo.v2/glob
+# https://github.com/bmatcuk/doublestar
+# File extensions are optional (if not specified, `.yaml` is used by default)
+import:
+  - catalog/terraform/services/service-?.*
+
+components:
+  terraform:
+    "eks/blue":
+      backend:
+        s3:
+          workspace_key_prefix: eks-blue
+      remote_state_backend:
+        s3:
+          workspace_key_prefix: eks-blue
+      settings:
+        spacelift:
+          workspace_enabled: true
+          aws_role_enabled: true
+          worker_type: shared
+      vars:
+        enabled: true
