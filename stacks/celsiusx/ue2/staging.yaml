@@ -5,8 +5,7 @@ import:
   - catalog/terraform/eks-blue
   - catalog/terraform/eks-blue-override
   - catalog/terraform/vpc
-  - catalog/helmfile/echo-server
-  - catalog/helmfile/infra-server
+
 
 vars:
   stage: staging
