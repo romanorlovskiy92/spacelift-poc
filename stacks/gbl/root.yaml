@@ -1,5 +1,6 @@
 import:
   - globals/globals
+  - globals/gbl-globals
   - catalog/account
   - catalog/account-map
   - catalog/account-settings
