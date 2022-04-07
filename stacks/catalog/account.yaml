@@ -23,6 +23,8 @@ components:
           - SERVICE_CONTROL_POLICY
           - TAG_POLICY
         organization_config:
+          root_account:
+            name: root
           root_account_stage_name: root
           accounts: []
           organization:
