@@ -1,0 +1,11 @@
+import:
+  - globals/globals
+  - catalog/account
+  - catalog/account-map
+  - catalog/account-settings
+
+vars:
+  stage: root
+
+terraform:
+  vars: {}
