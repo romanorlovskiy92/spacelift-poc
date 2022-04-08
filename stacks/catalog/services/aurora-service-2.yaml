@@ -1,0 +1,5 @@
+components:
+  terraform:
+    aurora-postgres:
+      vars:
+        service_2_name: "aurora-postgres-service-2"

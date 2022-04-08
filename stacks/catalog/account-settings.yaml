@@ -1,0 +1,17 @@
+components:
+  terraform:
+    account-settings:
+      backend:
+        s3:
+          workspace_key_prefix: account-settings
+      remote_state_backend:
+        s3:
+          workspace_key_prefix: account-settings
+      settings:
+        spacelift:
+          workspace_enabled: true
+          aws_role_enabled: true
+          worker_type: shared
+      vars:
+        minimum_password_length: 20
+        maximum_password_age: 120
