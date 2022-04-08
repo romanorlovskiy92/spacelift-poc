@@ -13,7 +13,7 @@ components:
           aws_role_enabled: true
           worker_type: shared
       vars:
-        account_email_format: aws+%s@example.net
+        account_email_format: romanorlovskiy92+aws-%s@gmail.com
         account_iam_user_access_to_billing: DENY
         organization_enabled: true
         aws_service_access_principals:
